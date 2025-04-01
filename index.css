@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", system-ui;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  border: 1px solid #8080802f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e6e6e6;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
+p {
+  font-family: "Inter";
+  word-wrap: break-word;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.custom-calendar .rbc-time-view .rbc-time-header-gutter,
+.custom-calendar .rbc-time-view .rbc-timeslot-group,
+.custom-calendar .rbc-time-view .rbc-time-gutter .rbc-time-column,
+.custom-calendar .rbc-time-view .rbc-row-content,
+.custom-calendar .rbc-time-view .rbc-allday-cell {
+  display: none !important;
+}
+.custom-calendar .rbc-time-view .rbc-events-container {
+  margin-right: 0;
+}
